@@ -146,3 +146,17 @@ section {
         width: 100%;
     }
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #141414;
+    color: white;
+  }
+  .card::before {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .copyright p {
+    color: #555555;
+  }
+}
